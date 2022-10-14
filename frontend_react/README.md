@@ -6,6 +6,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm install @sanity/client @sanity/image-url framer-motion node-sass react-icons`
+
+Install the npm dependencies inside 'frontend_react'
+
 ### `npm start`
 
 Runs the app in the development mode.\
