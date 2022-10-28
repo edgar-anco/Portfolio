@@ -14,15 +14,15 @@ export default {
             type: 'string'
         },
         {
-            name: 'imageurl',
-            title: 'ImgURL',
+            name: 'imgurl',
+            title: 'ImgUrl',
             type: 'image',
             options: {
                 hotspot: true,
-            }
+            },
         },
         {
-            name: 'nafeedbackme',
+            name: 'feedback',
             title: 'Feedback',
             type: 'string'
         }
