@@ -38,10 +38,11 @@ const Work = () => {
 
   return (
     <>
-      <h2 className="head-text">My Creative <span>Portfolio</span> Section</h2>
+      <h2 className="head-text">Mi <span>Portafolio</span></h2>
+      <p className="p-text">Algunos de mis proyectos de software académicos y personales.</p>
 
       <div className="app__work-filter">
-        {['UI/UX', 'Web App', 'Mobile App', 'React JS', 'All'].map((item, index) => (
+        {['All', 'Angular JS', 'ASP.NET C#', 'Python', 'React JS', 'Spring Java', 'Vue JS', 'UI/UX', 'Web App',].map((item, index) => (
           <div
             key={index}
             onClick={() => handleWorkFilter(item)}
@@ -111,6 +112,6 @@ const Work = () => {
 
 export default AppWrap(
   MotionWrap(Work, 'app__works'),
-  'work',
+  'portafolio',
   'app__primarybg',
 );
